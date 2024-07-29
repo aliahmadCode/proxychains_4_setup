@@ -1,3 +1,7 @@
+
+
+```
+
 sudo systemctl start tor
 systemctl status tor
 proxychains4 curl http://check.torproject.org
@@ -11,4 +15,4 @@ sudo curl --socks5 127.0.0.1:9050 http://check.torproject.org
 ps aux | grep tor
 sudo apt update
 sudo apt install tor proxychains
-
+```
